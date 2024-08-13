@@ -5,7 +5,7 @@ import { marked } from "marked";
 function MarkdownUseState() {
     const [markdown, setMarkdown] = useState('');
 
-    // Convert markdown to HTML
+
     const getMarkdownText = () => {
         const rawMarkup = marked(markdown, { sanitize: true });
         return { __html: rawMarkup };
