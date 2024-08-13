@@ -11,9 +11,13 @@
     width: 100%
 }
 .parent{
-    background-color:#74FF01;
+    
     padding: 20px;
 }
 .child{
     background-color: #C8601F;
+}
+.app-container{
+    background-color:#74FF01;
+    padding: 10px;
 }
